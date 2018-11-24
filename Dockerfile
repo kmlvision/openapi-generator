@@ -1,4 +1,4 @@
-FROM openapitools/openapi-generator-cli:latest
+FROM openapitools/openapi-generator-cli:v3.3.3
 
 LABEL maintainer="KML VISION, devops@kmlvision.com"
 
