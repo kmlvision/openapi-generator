@@ -6,11 +6,11 @@ CLI docker image for the OpenAPI generator.
 
 Print the version:
 ```bash
-openapi-generator-cli version
+openapi-generator version
 ```
 
 
 Run the generator (follows standard OpenAPI CLI signature)
 ```bash
-openapi-generator-cli generate -i input.yaml -g generator-name -o output/dir
+openapi-generator generate -i input.yaml -g generator-name -o output/dir
 ```
