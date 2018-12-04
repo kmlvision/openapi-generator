@@ -1,6 +1,8 @@
 # use a convenient lightweight YAML reader
 FROM mikefarah/yq:latest as yaml-reader
-FROM openapitools/openapi-generator-cli:v3.3.3 as openapi-builder
+# TODO switch back to upstream openapitools/openapi-generator-cli:latest after 
+# https://github.com/OpenAPITools/openapi-generator/pull/1613 was merged and deployed
+FROM kmlvision/openapi-generator-ng7-cli:latest as openapi-builder
 
 LABEL maintainer="KML VISION, devops@kmlvision.com"
 
