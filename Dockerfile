@@ -1,6 +1,6 @@
 # use a convenient lightweight YAML reader
 FROM mikefarah/yq:latest as yaml-reader
-FROM openapitools/openapi-generator-cli:v4.0.0-beta3 as openapi-builder
+FROM openapitools/openapi-generator-cli:v4.0.0 as openapi-builder
 
 LABEL maintainer="KML VISION, devops@kmlvision.com"
 
