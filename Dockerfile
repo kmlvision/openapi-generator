@@ -1,6 +1,6 @@
 # use a convenient lightweight YAML reader
 FROM mikefarah/yq:3 AS yaml-reader
-FROM openapitools/openapi-generator-cli:v7.17.0 AS openapi-builder
+FROM openapitools/openapi-generator-cli:v7.26.0 AS openapi-builder
 
 LABEL maintainer="KOLAIDO, devops@kolaido.com"
 
